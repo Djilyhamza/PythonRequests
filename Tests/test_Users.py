@@ -25,7 +25,7 @@ def test_post_user(apis, load_user_data):
     get_response = apis.get(f"users/10")
     assert get_response.status_code == 200  # check GET succeeded
 
-
+#comment
 def test_update_user(apis):
     # Step 1: POST a new user
     data_user = {"name": "boby", "username": "chiwawa", "password": "1223234"}

@@ -1,5 +1,5 @@
 import requests
-
+#import
 class API:
     # Base URL for all API requests
     Base_URL = "http://jsonplaceholder.typicode.com/"
